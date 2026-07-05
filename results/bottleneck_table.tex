@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Method & Acc. (\%) & Mean ms & P95 ms & Miss (\%) & Upload KB & Local (\%) & Raw (\%) & Split1 (\%) & Split2 (\%) & Split3 (\%) \\
+\midrule
+Cloud only & 94.50 & 403.8 & 939.5 & 91.05 & 256.00 & 0.0 & 100.0 & 0.0 & 0.0 & 0.0 \\
+Deadline greedy & 80.53 & 125.1 & 267.6 & 65.11 & 2.00 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 \\
+Oracle split & 80.55 & 125.1 & 267.6 & 65.10 & 2.92 & 0.0 & 0.7 & 99.2 & 0.1 & 0.0 \\
+CODA split controller (no exits) & 80.53 & 125.1 & 267.6 & 65.11 & 2.00 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 \\
+CODA controller (no exits) & 94.48 & 61.0 & 61.0 & 0.02 & 0.00 & 99.9 & 0.0 & 0.1 & 0.0 & 0.0 \\
+\bottomrule
+\end{tabular}
